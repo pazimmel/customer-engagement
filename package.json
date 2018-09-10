@@ -1,0 +1,49 @@
+{
+  "name": "Customer-Engagement-App",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "local": "npm install && webpack && node server.js ",
+    "start": "webpack && node server.js",
+    "build": "babel-node build.js",
+    "prep": "true",
+    "ci": "webpack"
+  },
+  "author": "Paul Zimmel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "ejs-loader": "^0.3.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "css-loader": "^0.25.0",
+    "ejs": "^2.4.1",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.24.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "path": "^0.12.7",
+    "react-hot-loader": "^1.3.0",
+    "react-scroll": "^1.5.2",
+    "react-test-renderer": "^15.5.4",
+    "string-replace-loader": "^1.0.5",
+    "string-replace-webpack-plugin": "0.0.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
